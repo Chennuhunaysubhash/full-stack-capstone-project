@@ -1,0 +1,24 @@
+<h2> Instructor List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th> Course Id</th>
+            <th> Name </th>
+            <th> Price</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let c of course" >
+            <td> {{ c.id }} </td>
+            <td> {{ c.title }} </td>
+            <td> {{ c.price }} </td>
+            <td>
+                <button (click) = "registerForm()" class = "btn btn-info"> Register</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div>
+    <button (click) = "backButton()" class = "btn btn-info"> Back </button>
+</div>

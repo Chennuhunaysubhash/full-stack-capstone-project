@@ -1,0 +1,32 @@
+<div class="col-md-6 offset-md-3">
+    <h3> Create Instructor </h3>
+    <form (ngSubmit) = "onSubmit()">
+    
+        <div class="form-group">
+            <label> First Name</label>
+            <input type="text" class ="form-control" id = "firstName"
+                [(ngModel)] = "instructor.firstName" name = "firstName">
+        </div>
+    
+        <div class="form-group">
+            <label> Last Name</label>
+            <input type="text" class ="form-control" id = "lastName"
+                [(ngModel)] = "instructor.lastName" name = "lastName">
+        </div>
+    
+        <div class="form-group">
+            <label> Email Id</label>
+            <input type="text" class ="form-control" id = "email"
+                [(ngModel)] = "instructor.email" name = "email">
+        </div>
+
+
+        <div class="m-2">
+            <button (click) = "backButton()" class = "btn btn-info"> Back </button>
+            <button class = "btn btn-success" type ="submit" style="margin-left: 10px;" >Submit</button>
+        </div>
+    
+        
+    
+    </form>
+    </div> 

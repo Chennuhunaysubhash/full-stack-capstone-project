@@ -1,0 +1,25 @@
+<h2> Instructor List</h2>
+<table class = "table table-striped">
+    <thead>
+        <tr>
+            <th> First Name</th>
+            <th> Last Name </th>
+            <th> Email Id</th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let instructor of instructors" >
+            <td> {{ instructor.firstName }} </td>
+            <td> {{ instructor.lastName }} </td>
+            <td> {{ instructor.email }} </td>
+            <td>
+                <button (click) = "updateInstructor(instructor.id)" class = "btn btn-info"> Update</button>
+                <button (click) = "deleteInstructor(instructor.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click) = "instructorDetails(instructor.id)" class = "btn btn-info" style="margin-left: 10px"> View</button>
+                <button (click) = "addCourse(instructor.id)" class = "btn btn-info" style="margin-left: 10px"> Add Course</button>
+                <button (click) = "viewCourse(instructor.id)" class = "btn btn-info" style="margin-left: 10px"> View Course</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
