@@ -1,4 +1,3 @@
-Here’s your **README.md** file for **goUPskill**:  
 
 ---
 
@@ -16,16 +15,13 @@ Here’s your **README.md** file for **goUPskill**:
 - **RxJS** (Reactive Programming)  
 - **Angular Material** (UI Components)  
 - **NgRx (if used)** (State Management)  
-- **JWT Authentication**  
-
 ### **Backend (Spring Boot)**  
 - **Spring Boot 3+** (RESTful API)  
 - **Spring Security & JWT** (Authentication & Authorization)  
 - **Spring Data JPA** (Database ORM)  
 - **Hibernate** (Object-Relational Mapping)  
 - **MySQL** (Relational Database)  
-- **Lombok** (Boilerplate Reduction)  
-- **Swagger** (API Documentation)  
+- **Lombok** (Boilerplate Reduction)    
 
 ---
 
@@ -44,11 +40,6 @@ Here’s your **README.md** file for **goUPskill**:
 ✅ View enrolled students  
 ✅ Manage profile  
 
-### 🔹 **Admin Features (Future Enhancement)**  
-✅ Manage instructors and learners  
-✅ Approve or reject courses  
-✅ Monitor platform statistics  
-
 ---
 
 ## 📂 Project Structure  
@@ -60,7 +51,6 @@ Here’s your **README.md** file for **goUPskill**:
   │   │   ├── /service
   │   │   ├── /repository
   │   │   ├── /entity
-  │   │   ├── /config (Security & JWT)
   │   │   ├── Application.java
   │   ├── pom.xml
   ├── /frontend (Angular)
@@ -124,5 +114,3 @@ npm start
 This project is **open-source** and available under the **MIT License**.  
 
 ---
-
-**Let me know if you need any modifications! 🚀😊**
